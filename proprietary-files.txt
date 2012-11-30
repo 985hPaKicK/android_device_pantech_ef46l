@@ -1,0 +1,123 @@
+# Executable files
+bin/hci_qcomm_init
+bin/mm-qcamera-daemon
+bin/mpdecision
+bin/netmgrd
+bin/rmt_storage
+bin/qmuxd
+bin/thermald
+bin/time_daemon
+bin/cnd
+bin/bridgemgrd
+bin/port-bridge
+bin/qmiproxy
+bin/ATFWD-daemon
+bin/rild
+bin/gsiff_daemon
+bin/qseecomd
+bin/pantech_server
+bin/btnvtool
+
+# Audio
+lib/libacdbloader.so
+lib/libaudcal.so
+
+# Camera
+lib/libchromatix_imx074_default_video.so
+lib/libchromatix_imx074_preview.so
+lib/libchromatix_imx074_video_hd.so
+lib/libchromatix_imx074_zsl.so
+lib/libchromatix_imx091_default_video.so
+lib/libchromatix_imx091_preview.so
+lib/libchromatix_imx091_video_hd.so
+lib/libchromatix_ov2720_default_video.so
+lib/libchromatix_ov2720_preview.so
+lib/libchromatix_ov8820_default_video.so
+lib/libchromatix_ov8820_preview.so
+lib/libchromatix_ov8820_video_hd.so
+lib/libchromatix_ov8820_zsl.so
+lib/libchromatix_s5k3h2_default_video.so
+lib/libchromatix_s5k3h2_preview.so
+lib/libchromatix_s5k3l1yx_default_video.so
+lib/libchromatix_s5k3l1yx_hfr_120fps.so
+lib/libchromatix_s5k3l1yx_hfr_60fps.so
+lib/libchromatix_s5k3l1yx_hfr_90fps.so
+lib/libchromatix_s5k3l1yx_preview.so
+lib/libchromatix_s5k3l1yx_video_hd.so
+lib/libchromatix_s5k3l1yx_zsl.so
+lib/libchromatix_s5k4e1_default_video.so
+lib/libchromatix_s5k4e1_preview.so
+lib/libchromatix_vx6953_default_video.so
+lib/libchromatix_vx6953_preview.so
+lib/hw/camera.msm8960.so
+lib/libcamera_client.so
+lib/libgemini.so
+lib/libmmcamera_faceproc.so
+lib/libmmcamera_frameproc.so
+lib/libmmcamera_statsproc30.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/liboemcamera.so
+lib/libimage-jpeg-enc-omx-comp.so
+lib/libimage-omx-common.so
+lib/libmmosal.so
+lib/libmmparser.so
+lib/libmmstillomx.so
+lib/libOlaEngine.so
+lib/libDivxDrm.so
+lib/libmorpho_easy_hdr.so
+
+# Misc libraries
+lib/libmm-color-convertor.so
+
+# Qualcomm common libs
+lib/libdiag.so
+lib/libdsi_netctrl.so
+lib/libdsutils.so
+lib/libidl.so
+lib/libqdi.so
+lib/libqdp.so
+lib/libqmi.so
+lib/libqmi_cci.so
+lib/libqmi_common_so.so
+lib/libqmi_csi.so
+lib/libqmi_encdec.so
+lib/libqmiservices.so
+
+# Radio
+lib/libnetmgr.so
+lib/libqc-opt.so
+lib/libril-qc-qmi-1.so
+lib/libril-qcril-hook-oem.so
+lib/libril.so
+
+# Sky rild
+lib/libsky_rawdata.so
+lib/libskytestclient.so
+
+# pantech_server libs
+lib/libpantech_qcci.so
+lib/libmtc.so
+lib/libpantech_wifi_mac_backup.so
+lib/libpantech_wifi_mac_rw.so
+lib/libwcnftmp.so
+lib/libwcnftmpscan.so
+lib/libiw.so
+
+# Cnd
+lib/libcneapiclient.so
+lib/libcneqmiutils.so
+lib/libcneutils.so
+lib/libxml.so
+
+# Sensors
+lib/hw/sensors.msm8960.so
+
+# Light
+lib/hw/lights.msm8960.so
+
+# Video
+lib/libstagefrighthw.so
+
+# NFC
+lib/hw/nfc.default.so

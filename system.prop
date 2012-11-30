@@ -1,0 +1,157 @@
+#
+# system.prop for ef46l
+#
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+ro.telephony.ril_class=SkyQualcommRIL
+ro.telephony.ril.v3=qcomuiccstack
+ro.vendor.extension_library=/system/lib/libqc-opt.so
+ro.telephony.default_network=10
+telephony.lteOnCdmaDevice=1
+ro.baseband.arch=msm
+ro.config.lte=true
+ro.ril.shutdown=true
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.config.ehrpd=true
+ro.config.svlte1x=true
+ro.cdma.subscribe_on_ruim_ready=true
+
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+#ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+debug.sf.hw=1
+debug.egl.hw=1
+debug.composition.type=dyn
+ro.sf.compbypass.enable=1
+dev.pm.dyn_samplingrate=1
+
+ro.sf.lcd_density=320
+persist.sys.usb.config=mtp,adb
+
+# Softkey
+# 0 = enable, 1 = disable
+#qemu.hw.mainkeys=1
+
+#system props for the MM modules
+
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-scan=true
+
+#
+# system props for the cne module
+#
+persist.cne.UseCne=vendor 
+persist.cne.UseSwim=false
+persist.cne.bat.range.low.med=30
+persist.cne.bat.range.med.high=60
+persist.cne.loc.policy.op=/system/etc/OperatorPolicy.xml
+persist.cne.loc.policy.user=/system/etc/UserPolicy.xml
+persist.cne.bwbased.rat.sel=false
+persist.cne.snsr.based.rat.mgt=false
+persist.cne.bat.based.rat.mgt=false
+persist.cne.rat.acq.time.out=30000
+persist.cne.rat.acq.retry.tout=0
+persist.cne.sync.swim.mode=false
+
+#
+# system props for the data modules
+#
+ro.use_data_netmgrd=true
+persist.data.netmgrd.qos.enable=true
+
+#system props for time-services
+persist.timed.enable=true
+
+# System props for audio
+persist.audio.fluence.mode=endfire
+persist.audio.vr.enable=false
+persist.audio.handset.mic=analog
+
+# System prop to select audio resampler quality
+af.resampler.quality=255
+
+#
+# system prop for opengles version
+#
+# 131072 is decimal for 0x20000 to report version 2
+ro.opengles.version=131072
+
+#
+# system prop for Bluetooth Dialup Networking
+#
+#  BLUETOOTH DISABLE_MAP_SAP_DUN Modified the value of dun true->false
+ro.qualcomm.bluetooth.dun=false
+
+# +++ 2012-03-08 P12523 BT_SYS DISABLE_PULL_MYVCARD
+ro.qualcomm.bluetooth.sndmyinfo=false
+# --- 2012-03-08 P12523 BT_SYS DISABLE_PULL_MYVCARD
+
+#
+# system prop for Bluetooth sap
+#
+#  BLUETOOTH DISABLE_MAP_SAP_DUN Added sap 
+ro.qualcomm.bluetooth.sap=false
+
+#
+# system prop for Bluetooth map
+#
+#  BLUETOOTH DISABLE_MAP_SAP_DUN Added map
+ro.qualcomm.bluetooth.map=false
+
+
+# system prop for Bluetooth FTP profile
+ro.qualcomm.bluetooth.ftp=true
+#
+# system property for Bluetooth Handsfree Profile Wide Band Speech
+#
+ro.qualcomm.bluetooth.hfp.wbs=true
+#
+#system prop for Bluetooth hci transport
+ro.qualcomm.bt.hci_transport=smd
+#
+# system prop for requesting Master role in incoming Bluetooth connection.
+#
+ro.bluetooth.request.master=true
+#
+# system prop for Bluetooth Auto connect for remote initated connections
+#
+ro.bluetooth.remote.autoconnect=true
+
+#
+# System prop for switching gps driver to qmi
+#
+persist.gps.qmienabled=true
+
+#
+# System property for cabl
+#
+ro.qualcomm.cabl=0
+
+#
+# System prop for sending transmit power request to RIL during WiFi hotspot on/off
+#
+ro.ril.transmitpower=true
+
+ro.hwui.text_cache_width=2048
+ro.nfc.port=I2C
+persist.data_netmgrd_mtu=1440
+ro.hdmi.enable=true
+com.qc.hardware=true
+#lpa.decode=true
+
+wifi.interface=wlan0
+persist.fuse_sdcard=true
+dalvik.vm.dexopt-data-only=1
