@@ -1,17 +1,26 @@
-android_device_htc_ville
-========================
+android_device_pantech_ef46l
+============================
 
-Android device tree for HTC Ville (One S)
+CyanogenMod10 device tree for IM-A830L (SKY Vega Racer2) - Jellybean Branch
 
 Build requirements:
-* device/htc/msm8960-common, branch ics
+* device/pantech/msm8960-common, branch jellybean
 
 Working:
-* Bluetooth
-* Camera
-* Radio
+* RIL
+* Graphics
 * Sound
 * Wifi
+* Tethering
+* Bluetooth
+* Sensors
+* GPS
+* Camera
+* Video
 
 Known issues:
-* Wifi calling not available
+* Can not send/receive MMS
+* Can not get fake sender number of received SMS (Internet SMS, etc...)
+* Bluetooth SCO is not working
+* HDMI is not tested
+* Properiatary softwares are not working ( DMB, etc...)
