@@ -84,6 +84,19 @@ lib/libqmi_csi.so
 lib/libqmi_encdec.so
 lib/libqmiservices.so
 
+# EGL
+lib/libC2D2.so
+lib/libgsl.so
+lib/libOpenVG.so
+lib/libsc-a2xx.so
+lib/libsc-a3xx.so
+lib/egl/eglsubAndroid.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+lib/egl/libGLESv2S3D_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+
 # Radio
 lib/libnetmgr.so
 lib/libqc-opt.so

@@ -21,6 +21,5 @@ Working:
 Known issues:
 * Can not send/receive MMS
 * Can not get fake sender number of received SMS (Internet SMS, etc...)
-* Bluetooth SCO is not working
 * HDMI is not tested
 * Properiatary softwares are not working ( DMB, etc...)

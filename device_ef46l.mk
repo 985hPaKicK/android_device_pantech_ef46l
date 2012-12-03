@@ -44,8 +44,15 @@ PRODUCT_COPY_FILES += \
     device/pantech/ef46l/configs/init.qcom.sdio.sh:/system/etc/init.qcom.sdio.sh \
     device/pantech/ef46l/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh
 
-# MSM8960 firmware
+# MSM8960 firmwares
 PRODUCT_COPY_FILES += \
+    device/pantech/ef46l/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
+    device/pantech/ef46l/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
+    device/pantech/ef46l/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
+    device/pantech/ef46l/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
+    device/pantech/ef46l/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
+    device/pantech/ef46l/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
+    device/pantech/ef46l/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
     device/pantech/ef46l/firmware/cyttsp_8960_cdp.hex:/system/etc/firmware/cyttsp_8960_cdp.hex \
     device/pantech/ef46l/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw
 
@@ -155,10 +162,6 @@ PRODUCT_COPY_FILES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
-
-# Camera (Use EF44S's lib)
-#PRODUCT_COPY_FILES += \
-#    device/pantech/ef46l/camera/camera.msm8960.so:/system/lib/hw/camera.msm8960.so
 
 # Camera
 PRODUCT_PACKAGES += \
