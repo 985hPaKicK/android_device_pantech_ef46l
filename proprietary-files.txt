@@ -17,6 +17,7 @@ bin/gsiff_daemon
 bin/qseecomd
 bin/pantech_server
 bin/btnvtool
+bin/usb_manager
 
 # Audio
 lib/libacdbloader.so

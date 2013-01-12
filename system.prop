@@ -35,6 +35,7 @@ ro.sf.compbypass.enable=1
 dev.pm.dyn_samplingrate=1
 
 ro.sf.lcd_density=320
+persist.pantech.usb.default=mtp_mode
 persist.sys.usb.config=mtp,adb
 
 # Softkey
