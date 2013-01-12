@@ -153,7 +153,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/pantech/ef46l/keylayout/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
     device/pantech/ef46l/keylayout/qt602240_ts_input_ef46l.kl:system/usr/keylayout/qt602240_ts_input_ef46l.kl \
-    device/pantech/ef46l/keylayout/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl
+    device/pantech/ef46l/keylayout/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl
 
 # Input device config
 PRODUCT_COPY_FILES += \
