@@ -25,6 +25,7 @@
 # against the traditional rules of inheritance).
 
 COMMON_GLOBAL_CFLAGS += -DEF46L -DNEED_UMS_ENABLE -DFORCE_CAMERA_PERM_SET
+COMMON_GLOBAL_CFLAGS += -DQCOM_ICS_COMPAT
 
 # inherit from common msm8960
 -include device/pantech/msm8960-common/BoardConfigCommon.mk

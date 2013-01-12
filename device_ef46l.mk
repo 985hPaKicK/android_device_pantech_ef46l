@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
     device/pantech/ef46l/configs/init.qcom.sdio.sh:/system/etc/init.qcom.sdio.sh \
     device/pantech/ef46l/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh
 
-# MSM8960 firmwares
+# MSM8960 firmware
 PRODUCT_COPY_FILES += \
     device/pantech/ef46l/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
     device/pantech/ef46l/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
@@ -162,6 +162,10 @@ PRODUCT_COPY_FILES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+
+# CM9 libOmxVdec (avoid crack video playback bug)
+PRODUCT_COPY_FILES += \
+    device/pantech/ef46l/prebuilt/libOmxVdec.so:/system/lib/libOmxVdec.so
 
 # Camera
 PRODUCT_PACKAGES += \

@@ -129,8 +129,5 @@ lib/hw/sensors.msm8960.so
 # Light
 lib/hw/lights.msm8960.so
 
-# Video
-lib/libstagefrighthw.so
-
 # NFC
 lib/hw/nfc.default.so
