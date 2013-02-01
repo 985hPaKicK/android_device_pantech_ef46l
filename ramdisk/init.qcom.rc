@@ -557,15 +557,3 @@ on property:ftm_ptt_start=1
 
 on property:ftm_ptt_start=0
     stop ftm_ptt
-
-service camera-perm /system/bin/sh /system/etc/camera-permission.sh
-    class late_start
-    user root
-    disabled
-    oneshot
-
-on property:media.camera_init=1
-    start camera-perm
-
-on property:media.camera_init=0
-    stop camera-perm

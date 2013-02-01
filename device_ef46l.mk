@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 
 # Qualcomm scripts
 PRODUCT_COPY_FILES += \
-    device/pantech/ef46l/configs/camera-permission.sh:/system/etc/camera-permission.sh \
     device/pantech/ef46l/configs/init.qcom.bt.sh:/system/etc/init.qcom.bt.sh \
     device/pantech/ef46l/configs/init.qcom.coex.sh:/system/etc/init.qcom.coex.sh \
     device/pantech/ef46l/configs/init.qcom.fm.sh:/system/etc/init.qcom.fm.sh \
